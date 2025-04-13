@@ -1,0 +1,53 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main heading styling */
+.main-heading {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+/* Styling the section with class "content" */
+.content {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    background-color: #ffffff;
+}
+
+/* Styling the image with class "image" */
+.image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 5px solid #ddd;
+    margin-top: 15px;
+}
+
+/* Button with an id selector */
+#btn-styled {
+    background-color: #008CBA;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#btn-styled:hover {
+    background-color: #005f6b;
+}
